@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+    <head>
+        <titile>mongodb</titile>
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <th>fund_name</th>
+                <th>nav</th>
+            </tr>
+            {%for i in data}
+            <tr>
+                <td>{{i.fund_name}}</td>
+                <td>{{i.nav}}</td>
+            </tr>
+            {%endfor%}
+        </table>
+    </body>
+</html>
